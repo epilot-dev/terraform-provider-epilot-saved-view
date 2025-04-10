@@ -1,0 +1,35 @@
+configVersion: 2.0.0
+generation:
+  sdkClassName: SDK
+  usageSnippets:
+    optionalPropertyRendering: withExample
+  fixes:
+    nameResolutionDec2023: false
+    parameterOrderingFeb2024: false
+    requestResponseComponentNamesFeb2024: false
+  auth:
+    oAuth2ClientCredentialsEnabled: false
+    oAuth2PasswordEnabled: false
+  sdkFlattening: true
+  telemetryEnabled: false
+terraform:
+  version: 0.10.3
+  additionalDataSources: []
+  additionalDependencies: {}
+  additionalResources: []
+  allowUnknownFieldsInWeakUnions: false
+  author: epilot-dev
+  defaultErrorName: SDKError
+  enableTypeDeduplication: true
+  environmentVariables: []
+  imports:
+    option: openapi
+    paths:
+      callbacks: callbacks
+      errors: sdkerrors
+      operations: operations
+      shared: shared
+      webhooks: webhooks
+  inputModelSuffix: input
+  outputModelSuffix: output
+  packageName: epilot-saved-view
