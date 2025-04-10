@@ -5338,7 +5338,6 @@ components:
         - contract
         - email_template
         - file
-        - journey
         - meter_counter
         - meter
         - opportunity
